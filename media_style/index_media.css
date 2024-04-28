@@ -1,0 +1,124 @@
+@media only screen and (max-width: 600px)
+ {
+    header .back-img
+    {
+        height: 50vh;
+    }
+    .message
+    {
+        height: 150vh;
+    }
+    header .content
+    {  
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    h1
+{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+     }
+    
+
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    header .back-img
+    {
+        height: 50vh;
+    }
+    .message
+    {
+        height: 135vh;
+    }
+    header .content
+    {  
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    h1
+{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+     }
+    
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header .back-img
+    {
+        height: 50vh;
+    }
+    .message
+    {
+        height: 135vh;
+    }
+    header .content
+    {  
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    h1
+    {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 36px;
+}
+     }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header .back-img ,.message
+    {
+        height: 70vh;
+    }
+    .message
+    {
+        height: 100vh;
+    }
+    header .content
+    {  
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    h1
+{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 86px;
+}
+     }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header .back-img , .message
+    {
+        height: 100vh;
+    }
+    header .content
+    {  
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    h1
+{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 86px;
+}
+     }
+    
+}
